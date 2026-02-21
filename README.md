@@ -78,15 +78,16 @@ Press **'q'** to exit.
 
 ```bash
 pip install opencv-python numpy scikit-learn joblib
-Step 2 – Train the Model
+```
+### Step 2 – Train the Model
+```bash
 python train_model.py
-
-
+```
 This generates:
-
 hog_model.pkl
 
-Step 3 – Run Real-Time Detection
+### Step 3 – Run Real-Time Detection
+```bash
 python realtime_predict.py
 ```
 
@@ -133,5 +134,7 @@ Confusion matrix & evaluation metrics
 ## 👨‍💻 Author
 
 Jatin Dhawad
+
 B.Tech Computer Engineering
+
 Computer Vision Project
